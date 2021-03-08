@@ -1,7 +1,16 @@
 /* my styles */
 
-.comment {
+.comment-container {
+  display: flex;
+}
+
+.comment-link {
+  width: 0.1%;
   border-left: 1px solid black;
+}
+
+.comment-content {
+  flex-grow: 1;
   margin: 7px 0 7px 15px;
   padding: 0 0 0 10px;
 }
