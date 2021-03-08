@@ -7,10 +7,10 @@ export const Comments = (props) => {
   return <>
     {
       (comments || []).map((comment, i) => (
-        <>
+        <div className='comment'>
           <div>{comment.text}</div>
           <><Comments comments={comment.childComments} /></>
-        </>
+        </div>
       ))
     }
   </>

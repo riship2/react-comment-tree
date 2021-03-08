@@ -1,3 +1,12 @@
+/* my styles */
+
+.comment {
+  border: 1px solid black;
+  margin: 7px 0 7px 15px;
+}
+
+/* default styles from create-react-app */
+
 .App {
   text-align: center;
 }
